@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'SudokuFX.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedSudokuFX_id() {
+        dtjava.embed(
+            {
+                id : 'SudokuFX_id',
+                url : 'SudokuFX.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '550',
+                height : '580'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedSudokuFX_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>SudokuFX</b></h2>
+  <b>Webstart:</b> <a href='SudokuFX.jnlp' onclick="return launchApplication('SudokuFX.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
