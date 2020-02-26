@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Alert;
@@ -6,14 +6,17 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
+import main.java.com.sudoku.core.SudokuBoard;
+import main.java.com.sudoku.core.SudokuProcessor;
+import main.java.com.sudoku.core.SudokuRow;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static main.java.com.sudoku.GameColors.*;
-import static main.java.com.sudoku.GameConfig.*;
+import static main.java.com.sudoku.constant.GameColors.*;
+import static main.java.com.sudoku.constant.GameConfig.*;
 
 public class GuiBoard {
 
@@ -24,9 +27,9 @@ public class GuiBoard {
     private SudokuBoard sudokuBoard = SudokuBoard.getInstance();
     private SudokuProcessor sudokuProcessor = SudokuProcessor.getInstance();
     private GuiTimer guiTimer = GuiTimer.getInstance();
-    private ImageView iconWin = new ImageView(getClass().getResource("images/Win.png").toExternalForm());
-    private ImageView iconSolution = new ImageView(getClass().getResource("images/Solution.png").toExternalForm());
-    private ImageView iconNoSolution = new ImageView(getClass().getResource("images/NoSolution.png").toExternalForm());
+    private ImageView iconWin = new ImageView(getClass().getResource("/Win.png").toExternalForm());
+    private ImageView iconSolution = new ImageView(getClass().getResource("/Solution.png").toExternalForm());
+    private ImageView iconNoSolution = new ImageView(getClass().getResource("/NoSolution.png").toExternalForm());
 
     private GuiBoard() {
     }

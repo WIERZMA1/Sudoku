@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.core;
 
 public interface LineChecker {
     boolean check(int el);

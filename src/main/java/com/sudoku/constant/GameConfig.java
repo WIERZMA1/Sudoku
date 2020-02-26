@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.constant;
 
 public class GameConfig {
 

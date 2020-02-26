@@ -1,9 +1,9 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 
-import static main.java.com.sudoku.GameConfig.*;
+import static main.java.com.sudoku.constant.GameConfig.*;
 
 public class GuiTextFieldKeyboardManager {
 

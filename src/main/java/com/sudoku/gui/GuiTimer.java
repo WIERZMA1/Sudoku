@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.geometry.HPos;
 import javafx.geometry.Pos;
@@ -9,8 +9,8 @@ import javafx.scene.text.FontWeight;
 import javax.swing.*;
 
 import static javafx.scene.layout.GridPane.setHalignment;
-import static main.java.com.sudoku.GameColors.DEFAULT_BACKGROUND;
-import static main.java.com.sudoku.GameColors.changeTextBackgroundColor;
+import static main.java.com.sudoku.constant.GameColors.DEFAULT_BACKGROUND;
+import static main.java.com.sudoku.constant.GameColors.changeTextBackgroundColor;
 
 public class GuiTimer {
 
@@ -51,9 +51,7 @@ public class GuiTimer {
         return timer;
     }
 
-    public TextField getTimeShow() {
-        return timeShow;
-    }
+    public TextField getTimeShow() { return timeShow; }
 
     public void timeCounter() {
         timer = new Timer(1000, e -> {

@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -10,7 +10,7 @@ import javafx.scene.text.FontWeight;
 
 import java.util.Map;
 
-import static main.java.com.sudoku.GameColors.*;
+import static main.java.com.sudoku.constant.GameColors.*;
 
 public class GuiTextFieldProcessor {
 

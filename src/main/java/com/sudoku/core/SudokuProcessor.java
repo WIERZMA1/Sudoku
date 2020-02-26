@@ -1,6 +1,9 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.core;
 
-import static main.java.com.sudoku.GameConfig.*;
+import main.java.com.sudoku.constant.GameConfig;
+import main.java.com.sudoku.gui.GuiBoard;
+
+import static main.java.com.sudoku.constant.GameConfig.*;
 
 public class SudokuProcessor {
 

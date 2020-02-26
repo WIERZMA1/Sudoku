@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.core;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 
 import javafx.application.Platform;

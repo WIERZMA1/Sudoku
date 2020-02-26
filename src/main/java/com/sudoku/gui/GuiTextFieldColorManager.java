@@ -1,4 +1,4 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.scene.control.TextField;
 
@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import static main.java.com.sudoku.GameColors.*;
-import static main.java.com.sudoku.GameConfig.*;
+import static main.java.com.sudoku.constant.GameColors.*;
+import static main.java.com.sudoku.constant.GameConfig.*;
 
 public class GuiTextFieldColorManager {
 

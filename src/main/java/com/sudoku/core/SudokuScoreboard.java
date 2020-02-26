@@ -1,8 +1,8 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.core;
+
+import main.java.com.sudoku.constant.GameDifficulty;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class SudokuScoreboard implements Serializable {
 

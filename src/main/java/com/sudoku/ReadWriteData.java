@@ -1,5 +1,7 @@
 package main.java.com.sudoku;
 
+import main.java.com.sudoku.core.SudokuScoreboard;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

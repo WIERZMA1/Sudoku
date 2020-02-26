@@ -1,12 +1,18 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.gui;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import main.java.com.sudoku.constant.GameDifficulty;
+import main.java.com.sudoku.ReadWriteData;
+import main.java.com.sudoku.core.SudokuBoard;
+import main.java.com.sudoku.core.SudokuProcessor;
+import main.java.com.sudoku.core.SudokuScoreboard;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -119,6 +125,7 @@ public class GuiProcessor {
 
             Stage scoreboard = new Stage();
             scoreboard.setTitle("Scoreboard");
+            scoreboard.getIcons().add(new Image(getClass().getResourceAsStream("/Scoreboard.png")));
             scoreboard.setScene(scene);
 
             scoreboard.show();

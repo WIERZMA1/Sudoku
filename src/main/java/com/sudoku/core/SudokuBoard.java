@@ -1,4 +1,6 @@
-package main.java.com.sudoku;
+package main.java.com.sudoku.core;
+
+import main.java.com.sudoku.constant.GameDifficulty;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,8 +9,8 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static main.java.com.sudoku.GameConfig.EMPTY;
-import static main.java.com.sudoku.GameConfig.GAME_SIZE;
+import static main.java.com.sudoku.constant.GameConfig.EMPTY;
+import static main.java.com.sudoku.constant.GameConfig.GAME_SIZE;
 
 public class SudokuBoard {
 
